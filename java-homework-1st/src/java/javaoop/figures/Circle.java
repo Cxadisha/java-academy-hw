@@ -1,4 +1,4 @@
-package ge.tbc.testautomation.javaoop.figures;
+package java.javaoop.figures;
 
 public class Circle {
 
