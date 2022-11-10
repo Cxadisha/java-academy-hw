@@ -1,6 +1,6 @@
-package ge.tbc.testautomation.javaoop.util;
+package java.javaoop.util;
 
-import ge.tbc.testautomation.javaoop.figures.Circle;
+import java.javaoop.figures.Circle;
 
 public class Util {
 

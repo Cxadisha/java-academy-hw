@@ -1,7 +1,7 @@
-package ge.tbc.testautomation.javaoop.runners;
+package java.javaoop.runners;
 
-import ge.tbc.testautomation.javaoop.figures.Circle;
-import ge.tbc.testautomation.javaoop.util.Util;
+import java.javaoop.figures.Circle;
+import java.javaoop.util.Util;
 
 import java.util.Random;
 
