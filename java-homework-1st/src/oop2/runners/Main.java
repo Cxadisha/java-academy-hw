@@ -1,8 +1,8 @@
-package ge.tbc.testautomation.runners;
+package oop2.runners;
 
-import ge.tbc.testautomation.figures.Rectangle;
-import ge.tbc.testautomation.figures.Triangle;
-import ge.tbc.testautomation.util.HelperFunctions;
+import oop2.figures.Rectangle;
+import oop2.figures.Triangle;
+import oop2.util.HelperFunctions;
 
 public class Main {
     public static void main(String[] args) {

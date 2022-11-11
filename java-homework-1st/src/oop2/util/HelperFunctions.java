@@ -1,6 +1,6 @@
-package ge.tbc.testautomation.util;
+package oop2.util;
 
-import ge.tbc.testautomation.figures.Rectangle;
+import oop2.figures.Rectangle;
 
 public class HelperFunctions {
 
