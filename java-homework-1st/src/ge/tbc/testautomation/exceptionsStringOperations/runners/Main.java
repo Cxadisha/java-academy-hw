@@ -41,5 +41,9 @@ public class Main {
         String task4 = str.replace(" ", "-");
         System.out.println(task4);
 
-    }
+        String str2 = "Some";
+        String str3 = "Some";
+        System.out.println(str2 == str3);
+
+        }
 }
