@@ -2,18 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69d8cfc8-5bf4-49c5-9e4c-093800e949dd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ge/tbc/testautomation/exceptionsStringOperations/exceptions/LimitException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ge/tbc/testautomation/exceptionsStringOperations/exceptions/RadiusException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ge/tbc/testautomation/exceptionsStringOperations/figures/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ge/tbc/testautomation/exceptionsStringOperations/figures/Figure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ge/tbc/testautomation/exceptionsStringOperations/runners/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ge/tbc/testautomation/abstractClassesInterfaces/abstractClasses/Figure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ge/tbc/testautomation/abstractClassesInterfaces/figures/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ge/tbc/testautomation/abstractClassesInterfaces/interfaces/IResizableCircle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ge/tbc/testautomation/abstractClassesInterfaces/interfaces/IValidCircle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ge/tbc/testautomation/abstractClassesInterfaces/realizationClasses/CircleRealization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ge/tbc/testautomation/runners/JavaLecture7Runner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ge/tbc/testautomation/figures/Figure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop2/figures/Figure.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ge/tbc/testautomation/figures/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop2/figures/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ge/tbc/testautomation/figures/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop2/figures/Triangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ge/tbc/testautomation/runners/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop2/runners/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ge/tbc/testautomation/util/HelperFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop2/util/HelperFunctions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-homework/ge/tbc/testautomation/exceptionsStringOperations/runners/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-homework/ge/tbc/testautomation/exceptionsStringOperations/runners/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ge/tbc/testautomation/exceptionsStringOperations/runners/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ge/tbc/testautomation/exceptionsStringOperations/runners/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/javaoop/figures/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ge/tbc/testautomation/javaoop/figures/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/javaoop/runners/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ge/tbc/testautomation/javaoop/runners/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/javaoop/util/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ge/tbc/testautomation/javaoop/util/Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oop2/figures/Figure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ge/tbc/testautomation/oop2/figures/Figure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oop2/figures/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ge/tbc/testautomation/oop2/figures/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oop2/figures/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ge/tbc/testautomation/oop2/figures/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oop2/runners/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ge/tbc/testautomation/oop2/runners/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oop2/util/HelperFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ge/tbc/testautomation/oop2/util/HelperFunctions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +28,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -53,13 +59,26 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ge.tbc.testautomation.exceptionsStringOperations.runners.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java.javaoop.runners.Main" />
+  <component name="RunManager" selected="Application.JavaLecture7Runner">
+    <configuration name="JavaLecture7Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ge.tbc.testautomation.runners.JavaLecture7Runner" />
       <module name="java-homework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java.javaoop.runners.*" />
+          <option name="PATTERN" value="ge.tbc.testautomation.runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ge.tbc.testautomation.javaoop.runners.Main" />
+      <module name="java-homework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ge.tbc.testautomation.javaoop.runners.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,19 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main" />
-      <module name="java-homework" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="oop2.runners.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oop2.runners.Main" />
+    <configuration name="ge.tbc.testautomation.oop2.runners.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ge.tbc.testautomation.oop2.runners.Main" />
       <module name="java-homework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oop2.runners.*" />
+          <option name="PATTERN" value="ge.tbc.testautomation.oop2.runners.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,10 +112,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main" />
+      <module name="java-homework" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JavaLecture7Runner" />
         <item itemvalue="Application.ge.tbc.testautomation.exceptionsStringOperations.runners.Main" />
-        <item itemvalue="Application.ge.tbc.testautomation.oop2.runners.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.main" />
       </list>
