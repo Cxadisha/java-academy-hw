@@ -5,7 +5,7 @@ import ge.tbc.testautomation.abstractClassesInterfaces.realizationClasses.Circle
 
 public class JavaLecture7Runner {
 
-    public static void main(String[] args) {
+    public static void main(String args) {
 
         Circle circle = new Circle(5);
 
