@@ -2,7 +2,7 @@ package ge.tbc.testautomation.abstractClassesInterfaces.figures;
 
 import ge.tbc.testautomation.abstractClassesInterfaces.abstractClasses.Figure;
 
-public class Circle extends Figure {
+public class Circle extends Figure implements Comparable {
 
     private double radius;
     private static final double pi = 3.141592653589793;
@@ -32,5 +32,22 @@ public class Circle extends Figure {
     @Override
     public void printPackageName() {
         System.out.println(this.getClass().getPackageName());
+    }
+
+    @Override
+    public int compareTo(Object o) {
+        Circle other = (Circle) o;
+        if (this.radius > other.getRadius()) { return 1; }
+        if (this.radius < other.getRadius()) { return -1; }
+        else {
+            return 0;
+        }
+    }
+
+    @Override
+    public String toString() {
+        return "Circle{" +
+                "radius=" + radius +
+                '}';
     }
 }
