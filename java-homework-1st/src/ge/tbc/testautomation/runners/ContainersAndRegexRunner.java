@@ -27,7 +27,7 @@ public class ContainersAndRegexRunner {
         return found;
     }
 
-    public static void main(String[] args) {
+    public static void main(String args) {
 
         // create list
         List<String> list = new ArrayList<>();
