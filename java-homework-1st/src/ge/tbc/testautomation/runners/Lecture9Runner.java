@@ -12,7 +12,7 @@ import java.util.Collection;
 import java.util.Collections;
 
 public class Lecture9Runner {
-    public static void main(String[] args) {
+    public static void main2(String[] args) {
 
         // comparing names
         Field[] fields = Analyzable.class.getDeclaredFields();
