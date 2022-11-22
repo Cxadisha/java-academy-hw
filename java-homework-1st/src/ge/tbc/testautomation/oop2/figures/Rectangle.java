@@ -19,4 +19,12 @@ public class Rectangle extends Figure {
     public double getPerimeter() {
         return 2 * (a + b);
     }
+
+    @Override
+    public String toString() {
+        return "Rectangle{" +
+                "a=" + a +
+                ", b=" + b +
+                '}';
+    }
 }
